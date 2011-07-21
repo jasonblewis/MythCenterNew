@@ -1,4 +1,4 @@
- The 'MythCenter' theme for MythTV
+ The 'MythCenterNew' theme for MythTV
 ===================================
 
 Changelog:
@@ -13,7 +13,7 @@ schedule field wider for easier reading
 
 About:
 ------
-I forked this theme to make some changes and fixes. The goal of the fork is to fix the theme, not to implement new features.
+I forked this theme from MythCenter in mythtv to make some changes and fixes. The goal of the fork is to fix the theme, not to implement new features.
 
 This theme is originally based on G.A.N.T. by Oscar Carlsson and 
 is inspired by the well-known Media Center theme.
