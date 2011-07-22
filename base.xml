@@ -600,15 +600,16 @@
         </statetype>
     </buttonlist>
 
-    <!-- Base definition of a list in very wide 'selector' configuration -->
+    <!-- Base definition of a list in very wide 'selector'
+         configuration 90/120 wider than basewideselector-->
     <buttonlist name="baseverywideselector" from="baseselector">
-        <area>0,0,455,40</area>
-        <buttonarea>0,0,435,100%</buttonarea>
+        <area>0,0,515,40</area>
+        <buttonarea>0,0,495,100%</buttonarea>
         <statetype name="buttonitem">
             <state name="active">
-                <area>0,0,435,100%</area>
+                <area>0,0,495,100%</area>
                 <textarea name="buttontext">
-                    <area>5,5,425,30</area>
+                    <area>5,5,485,30</area>
                 </textarea>
             </state>
             <state name="selectedactive" from="active">
@@ -617,10 +618,10 @@
             <state name="selectedinactive" from="active" />
         </statetype>
         <statetype name="downscrollarrow">
-            <position>440,2</position>
+            <position>500,2</position>
         </statetype>
         <statetype name="upscrollarrow">
-            <position>440,21</position>
+            <position>500,21</position>
         </statetype>
     </buttonlist>
 

@@ -1,0 +1,11 @@
+[%- x = 215
+    top = 210
+    ystep = 45
+
+    xres = 800
+    yres = 600
+
+    xcenter = xres/2
+    ycenter = yres/2
+
+ -%]
