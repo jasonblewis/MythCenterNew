@@ -1682,37 +1682,37 @@
         </buttonlist>
 
         <button name="schedoptions" from="baseverywidebutton">
-            <position>[%-x-%],[%-y = top +ystep; y-%]</position>
+            <position>[%-x-%],[%-y = top + ystep; y-%]</position>
             <value>Schedule Options</value>
             <helptext></helptext>
         </button>
 
         <button name="storeoptions" from="baseverywidebutton">
-            <position>[%-x-%],[%-y = top +ystep; y-%]</position>
+            <position>[%-x-%],[%-y = y + ystep; y-%]</position>
             <value>Storage Options</value>
             <helptext></helptext>
         </button>
 
         <button name="postprocessing" from="baseverywidebutton">
-            <position>[%-x-%],[%-y = top +ystep; y-%]</position>
+            <position>[%-x-%],[%-y = y + ystep; y-%]</position>
             <value>Post Processing</value>
             <helptext></helptext>
         </button>
 
         <button name="schedinfo" from="baseverywidebutton">
-            <position>[%-x-%],[%-y = top +ystep; y-%]</position>
+            <position>[%-x-%],[%-y = y + ystep; y-%]</position>
             <value>Schedule Info</value>
             <helptext></helptext>
         </button>
 
         <button name="preview" from="baseverywidebutton">
-            <position>[%-x-%],[%-y = top +ystep; y-%]</position>
+            <position>[%-x-%],[%-y = y + ystep; y-%]</position>
             <value>Preview</value>
             <helptext></helptext>
         </button>
 
         <button name="metadata" from="baseverywidebutton">
-            <position>[%-x-%],[%-y = top +ystep; y-%]</position>
+            <position>[%-x-%],[%-y = y + ystep; y-%]</position>
             <value>Metadata Options</value>
             <helptext></helptext>
         </button>

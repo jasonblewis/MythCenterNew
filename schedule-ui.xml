@@ -1687,31 +1687,31 @@
         </button>
 
         <button name="storeoptions" from="baseverywidebutton">
-            <position>215,255</position>
+            <position>215,300</position>
             <value>Storage Options</value>
             <helptext></helptext>
         </button>
 
         <button name="postprocessing" from="baseverywidebutton">
-            <position>215,255</position>
+            <position>215,345</position>
             <value>Post Processing</value>
             <helptext></helptext>
         </button>
 
         <button name="schedinfo" from="baseverywidebutton">
-            <position>215,255</position>
+            <position>215,390</position>
             <value>Schedule Info</value>
             <helptext></helptext>
         </button>
 
         <button name="preview" from="baseverywidebutton">
-            <position>215,255</position>
+            <position>215,435</position>
             <value>Preview</value>
             <helptext></helptext>
         </button>
 
         <button name="metadata" from="baseverywidebutton">
-            <position>215,255</position>
+            <position>215,480</position>
             <value>Metadata Options</value>
             <helptext></helptext>
         </button>

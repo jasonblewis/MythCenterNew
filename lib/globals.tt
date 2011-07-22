@@ -5,7 +5,7 @@
     xres = 800
     yres = 600
 
-    xcenter = xres/2
-    ycenter = yres/2
+    xcenter = xres / 2
+    ycenter = yres / 2
 
  -%]
