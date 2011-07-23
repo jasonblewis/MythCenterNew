@@ -1,4 +1,3 @@
-[%- PROCESS globals.tt -%]
 <?xml version="1.0" encoding="utf-8"?>
 <themeinfo>
     <!-- The Theme Name (Required) -->

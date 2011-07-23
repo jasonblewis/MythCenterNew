@@ -8,4 +8,17 @@
     xcenter = xres / 2
     ycenter = yres / 2
 
- -%]
+    # baseselector width and height
+    bsw = 220
+    bsh = 40
+    
+    # basewideselector width and height
+    bwsw = bsw + 175 #395
+    bwsh = bsh
+    
+    # baseverywideselector width and height
+    bvwsw = bsw + 295
+    bvwsh = bsh
+
+    
+-%]
