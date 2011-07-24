@@ -25,7 +25,7 @@ Maybe I will do an OSD theme in the future too.
 Install:
 --------
 1. cd ~/mythtv/themes
-2. git clone -b stable git://github.com/jasonblewis/MythCenterNew.git
+2. git clone git://github.com/jasonblewis/MythCenterNew.git
 3. load the new theme in mythfrontend
 
 Licensing:
