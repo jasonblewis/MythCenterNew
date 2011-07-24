@@ -604,12 +604,12 @@
          configuration 90/120 wider than basewideselector-->
     <buttonlist name="baseverywideselector" from="baseselector">
         <area>0,0,[%-bvwsw-%],[%-bvwsh-%]</area>
-        <buttonarea>0,0,495,100%</buttonarea>
+        <buttonarea>0,0,[%-bvwsw - 20-%],100%</buttonarea>
         <statetype name="buttonitem">
             <state name="active">
-                <area>0,0,495,100%</area>
+                <area>0,0,[%-bvwsw - 20-%],100%</area>
                 <textarea name="buttontext">
-                    <area>5,5,485,30</area>
+                    <area>5,5,[%-bvwsw - 30-%],30</area>
                 </textarea>
             </state>
             <state name="selectedactive" from="active">
@@ -618,10 +618,10 @@
             <state name="selectedinactive" from="active" />
         </statetype>
         <statetype name="downscrollarrow">
-            <position>500,2</position>
+            <position>[%-bvwsw - 15-%],2</position>
         </statetype>
         <statetype name="upscrollarrow">
-            <position>500,21</position>
+            <position>[%-bvwsw - 15-%],21</position>
         </statetype>
     </buttonlist>
 

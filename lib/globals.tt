@@ -1,4 +1,4 @@
-[%- x = 215
+[%- x = 115
     top = 210
     ystep = 45
 
@@ -17,7 +17,7 @@
     bwsh = bsh
     
     # baseverywideselector width and height
-    bvwsw = bsw + 295
+    bvwsw = bsw + 400
     bvwsh = bsh
 
     

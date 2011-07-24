@@ -1675,43 +1675,43 @@
         </textarea>
 
         <buttonlist name="rules" from="baseverywideselector">
-            <position>195,210</position>
+            <position>115,210</position>
             <wrapstyle>selection</wrapstyle>
             <helptext>Select the recording rule</helptext>
         </buttonlist>
 
         <button name="schedoptions" from="baseverywidebutton">
-            <position>215,255</position>
+            <position>115,255</position>
             <value>Schedule Options</value>
             <helptext></helptext>
         </button>
 
         <button name="storeoptions" from="baseverywidebutton">
-            <position>215,300</position>
+            <position>115,300</position>
             <value>Storage Options</value>
             <helptext></helptext>
         </button>
 
         <button name="postprocessing" from="baseverywidebutton">
-            <position>215,345</position>
+            <position>115,345</position>
             <value>Post Processing</value>
             <helptext></helptext>
         </button>
 
         <button name="schedinfo" from="baseverywidebutton">
-            <position>215,390</position>
+            <position>115,390</position>
             <value>Schedule Info</value>
             <helptext></helptext>
         </button>
 
         <button name="preview" from="baseverywidebutton">
-            <position>215,435</position>
+            <position>115,435</position>
             <value>Preview</value>
             <helptext></helptext>
         </button>
 
         <button name="metadata" from="baseverywidebutton">
-            <position>215,480</position>
+            <position>115,480</position>
             <value>Metadata Options</value>
             <helptext></helptext>
         </button>
@@ -1754,7 +1754,7 @@
         </textarea>
 
         <spinbox name="priority" from="basewidespinbox">
-            <position>215,210</position>
+            <position>115,210</position>
             <template type="negative">Reduce priority by %n</template>
             <template type="zero">Normal recording priority</template>
             <template type="positive">Raise priority by %n</template>
@@ -1762,12 +1762,12 @@
         </spinbox>
 
         <buttonlist name="input" from="basewideselector">
-            <position>215,255</position>
+            <position>115,255</position>
             <helptext></helptext>
         </buttonlist>
 
         <spinbox name="startoffset" from="basewidespinbox">
-            <position>215,300</position>
+            <position>115,300</position>
             <template type="negative">Start recording %n minute(s) late</template>
             <template type="zero">Start recording on time</template>
             <template type="positive">Start recording %n minute(s) early</template>
@@ -1775,25 +1775,25 @@
         </spinbox>
 
         <spinbox name="endoffset" from="basewidespinbox">
-            <position>215,345</position>
+            <position>115,345</position>
             <template type="negative">End recording %n minute(s) early</template>
             <template type="zero">End recording on time</template>
             <template type="positive">End recording %n minute(s) late</template>
             <helptext></helptext>
         </spinbox>
 
-        <buttonlist name="dupmethod" from="basewideselector">
-            <position>215,390</position>
+        <buttonlist name="dupmethod" from="baseverywideselector">
+            <position>115,390</position>
             <helptext></helptext>
         </buttonlist>
 
         <buttonlist name="dupscope" from="baseverywideselector">
-            <position>215,435</position>
+            <position>115,435</position>
             <helptext></helptext>
         </buttonlist>
 
         <button name="filters" from="basewidebutton">
-            <position>135,480</position>
+            <position>115,480</position>
             <value>Schedule filters</value>
             <helptext></helptext>
         </button>
@@ -1917,40 +1917,40 @@
             <template>%"|SUBTITLE|" %%LONGREPEAT%%(|STARS|) %%DESCRIPTION%</template>
         </textarea>
 
-        <buttonlist name="recprofile" from="basewideselector">
-            <position>215,210</position>
+        <buttonlist name="recprofile" from="baseverywideselector">
+            <position>115,210</position>
             <helptext></helptext>
         </buttonlist>
 
-        <buttonlist name="recgroup" from="basewideselector">
-            <position>215,255</position>
+        <buttonlist name="recgroup" from="baseverywideselector">
+            <position>115,255</position>
             <helptext></helptext>
         </buttonlist>
 
-        <buttonlist name="storagegroup" from="basewideselector">
-            <position>215,300</position>
+        <buttonlist name="storagegroup" from="baseverywideselector">
+            <position>115,300</position>
             <helptext></helptext>
         </buttonlist>
 
-        <buttonlist name="playgroup" from="basewideselector">
-            <position>215,345</position>
+        <buttonlist name="playgroup" from="baseverywideselector">
+            <position>115,345</position>
             <helptext></helptext>
         </buttonlist>
 
         <spinbox name="maxepisodes" from="basewidespinbox">
-            <position>215,390</position>
+            <position>115,390</position>
             <template type="zero">No episode limit</template>
             <template type="positive">Keep at most %n episode(s)</template>
             <helptext></helptext>
         </spinbox>
 
-        <buttonlist name="maxnewest" from="basewideselector">
-            <position>215,435</position>
+        <buttonlist name="maxnewest" from="baseverywideselector">
+            <position>115,435</position>
             <helptext></helptext>
         </buttonlist>
 
         <checkbox name="autoexpire" from="basecheckbox">
-            <position>215,480</position>
+            <position>115,480</position>
         </checkbox>
 
         <textarea name="autoexpirelabel" from="basetextarea">
@@ -1991,7 +1991,7 @@
         </textarea>
 
         <checkbox name="autocommflag" from="basecheckbox">
-            <position>215,210</position>
+            <position>115,210</position>
         </checkbox>
 
         <textarea name="autocommflaglabel" from="basetextarea">
@@ -2000,7 +2000,7 @@
         </textarea>
 
         <checkbox name="autotranscode" from="basecheckbox">
-            <position>215,255</position>
+            <position>115,255</position>
         </checkbox>
 
         <textarea name="autotranscodelabel" from="basetextarea">
@@ -2009,12 +2009,12 @@
         </textarea>
 
         <buttonlist name="transcodeprofile" from="basewideselector">
-            <position>215,300</position>
+            <position>115,300</position>
             <helptext></helptext>
         </buttonlist>
 
         <checkbox name="userjob1" from="basecheckbox">
-            <position>215,345</position>
+            <position>115,345</position>
         </checkbox>
 
         <textarea name="userjob1label" from="basetextarea">
@@ -2023,7 +2023,7 @@
         </textarea>
 
         <checkbox name="userjob2" from="basecheckbox">
-            <position>215,390</position>
+            <position>115,390</position>
         </checkbox>
 
         <textarea name="userjob2label" from="basetextarea">
@@ -2032,7 +2032,7 @@
         </textarea>
 
         <checkbox name="userjob3" from="basecheckbox">
-            <position>215,435</position>
+            <position>115,435</position>
         </checkbox>
 
         <textarea name="userjob3label" from="basetextarea">
@@ -2041,7 +2041,7 @@
         </textarea>
 
         <checkbox name="userjob4" from="basecheckbox">
-            <position>215,480</position>
+            <position>115,480</position>
         </checkbox>
 
         <textarea name="userjob4label" from="basetextarea">

@@ -1675,7 +1675,7 @@
         </textarea>
 
         <buttonlist name="rules" from="baseverywideselector">
-            <position>195,[%-top-%]</position>
+            <position>[%-x-%],[%-top-%]</position>
             <wrapstyle>selection</wrapstyle>
             <helptext>Select the recording rule</helptext>
         </buttonlist>
@@ -1782,7 +1782,7 @@
             <helptext></helptext>
         </spinbox>
 
-        <buttonlist name="dupmethod" from="basewideselector">
+        <buttonlist name="dupmethod" from="baseverywideselector">
             <position>[%-x-%],390</position>
             <helptext></helptext>
         </buttonlist>
@@ -1793,7 +1793,7 @@
         </buttonlist>
 
         <button name="filters" from="basewidebutton">
-            <position>135,480</position>
+            <position>[%-x-%],480</position>
             <value>Schedule filters</value>
             <helptext></helptext>
         </button>
@@ -1917,22 +1917,22 @@
             <template>%"|SUBTITLE|" %%LONGREPEAT%%(|STARS|) %%DESCRIPTION%</template>
         </textarea>
 
-        <buttonlist name="recprofile" from="basewideselector">
+        <buttonlist name="recprofile" from="baseverywideselector">
             <position>[%-x-%],210</position>
             <helptext></helptext>
         </buttonlist>
 
-        <buttonlist name="recgroup" from="basewideselector">
+        <buttonlist name="recgroup" from="baseverywideselector">
             <position>[%-x-%],255</position>
             <helptext></helptext>
         </buttonlist>
 
-        <buttonlist name="storagegroup" from="basewideselector">
+        <buttonlist name="storagegroup" from="baseverywideselector">
             <position>[%-x-%],300</position>
             <helptext></helptext>
         </buttonlist>
 
-        <buttonlist name="playgroup" from="basewideselector">
+        <buttonlist name="playgroup" from="baseverywideselector">
             <position>[%-x-%],345</position>
             <helptext></helptext>
         </buttonlist>
@@ -1944,7 +1944,7 @@
             <helptext></helptext>
         </spinbox>
 
-        <buttonlist name="maxnewest" from="basewideselector">
+        <buttonlist name="maxnewest" from="baseverywideselector">
             <position>[%-x-%],435</position>
             <helptext></helptext>
         </buttonlist>
