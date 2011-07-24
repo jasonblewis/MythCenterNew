@@ -25,8 +25,8 @@ Maybe I will do an OSD theme in the future too.
 Install:
 --------
 1. cd ~/mythtv/themes
-2. git clone 
-
+2. git clone -b stable git://github.com/jasonblewis/MythCenterNew.git
+3. load the new theme in mythfrontend
 
 Licensing:
 ----------
@@ -36,5 +36,8 @@ Contact:
 --------
 
 For this fork: Jason Lewis, jason@NOdicksonSPAM.st
+
+Please send me an email if you find this theme useful. I'd like to get
+an idea if anyone uses this.
 
 original author: Jeroen Brosens jeroen@fotoniq.nl
