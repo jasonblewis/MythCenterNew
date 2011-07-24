@@ -22,6 +22,11 @@ I found the MythTVMediaCenterOSD osd theme by Jason Gabriele to go best
 with this theme, but of course this is merely a matter of taste. 
 Maybe I will do an OSD theme in the future too.
 
+Install:
+--------
+1. cd ~/mythtv/themes
+2. git clone 
+
 
 Licensing:
 ----------
