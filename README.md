@@ -35,9 +35,11 @@ The contents may be freely distributed and changed.
 Contact:
 --------
 
+2011/05/25
 For this fork: Jason Lewis, jason@NOdicksonSPAM.st
 
 Please send me an email if you find this theme useful. I'd like to get
 an idea if anyone uses this.
 
+pre 2011/07/24
 original author: Jeroen Brosens jeroen@fotoniq.nl
