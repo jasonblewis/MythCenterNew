@@ -154,6 +154,13 @@
             </statetype>
         </buttonlist>
 
+        <clock name="time">
+            <area>640,0,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
+
+
         <imagetype name="autoexpire">
             <filename>autoexpire.png</filename>
             <position>648,500</position>
