@@ -1314,6 +1314,11 @@
     </window>
 
     <window name="progdetails">
+        <clock name="time">
+            <area>670,-15,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
 
         <textarea name="title" from="basetextarea">
             <area>40,20,720,40</area>
@@ -1659,6 +1664,12 @@
 
     <window name="scheduleeditor">
 
+        <clock name="time">
+            <area>670,-15,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
+
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>
         </shape>
@@ -1737,6 +1748,12 @@
     </window>
 
     <window name="scheduleoptionseditor">
+
+        <clock name="time">
+            <area>670,-15,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>
@@ -1901,6 +1918,11 @@
     </window>
 
     <window name="storageoptionseditor">
+        <clock name="time">
+            <area>670,-15,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>
@@ -1974,6 +1996,11 @@
     </window>
 
     <window name="postproceditor">
+        <clock name="time">
+            <area>670,-15,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>

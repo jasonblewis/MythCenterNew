@@ -34,4 +34,10 @@
     vu_breadcrumbs_w = xres - margin_top - margin_bottom
     vu_breadcrumbs_h = 40    
     
+    # schedule-ui
+    su_clock_x = 670
+    su_clock_y = -15
+    su_clock_w = 100
+    su_clock_h = 60
+
 -%]
