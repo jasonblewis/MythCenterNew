@@ -1359,6 +1359,12 @@
 
     <window name="programfind">
 
+        <clock name="time">
+            <area>670,-15,100,60</area>
+            <align>right,vcenter</align>
+            <template>%TIME%</template>
+        </clock>
+
         <shape name="details_background" from="basebackground">
             <area>25,25,750,215</area>
         </shape>
@@ -1374,6 +1380,8 @@
         <shape name="times_background" from="basebackground">
             <area>490,280,285,292</area>
         </shape>
+
+
 
         <shape name="select_background">
             <area>28,414,744,32</area>
