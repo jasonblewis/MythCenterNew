@@ -8,6 +8,11 @@
     xres = 800
     yres = 600
 
+    
+    margin_left = 20
+    margin_right = margin_left # make margins equal
+    margin_top = 20
+    margin_bottom = margin_top
     xcenter = xres / 2
     ycenter = yres / 2
 
@@ -23,6 +28,10 @@
     bvwsw = bsw + 400
     bvwsh = bsh
 
-    
+    # video-ui
+    vu_breadcrumbs_x = margin_left
+    vu_breadcrumbs_y = margin_top
+    vu_breadcrumbs_w = xres - margin_top - margin_bottom
+    vu_breadcrumbs_h = 40    
     
 -%]

@@ -743,19 +743,19 @@
     <window name="tree">
 
         <textarea name="breadcrumbs" from="basetextarea">
-            <area>50,20,700,40</area>
+            <area>20,20,760,40</area>
             <font>basemedium</font>
         </textarea>
 
         <buttontree name="videos">
-            <area>40,50,720,260</area>
+            <area>40,50,720,270</area>
             <numlists>3</numlists>
             <spacing>10</spacing>
             <buttonlist name="listtemplate" from="basebuttonlist" />
         </buttontree>
 
         <textarea name="title" from="basetextarea">
-            <area>40,330,530,40</area>
+            <area>40,330,630,40</area>
             <font>baselarge</font>
         </textarea>
 
