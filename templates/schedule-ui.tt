@@ -1322,7 +1322,7 @@
         </textarea>
 
         <shape name="background" from="basebackground">
-            <area>40,60,720,500</area>
+            <area>30,55,730,510</area>
             <fill color="#131564"/>
         </shape>
 
