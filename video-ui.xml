@@ -213,6 +213,7 @@
 
         <textarea name="lvllbl" from="dirlbl">
             <position>500,95</position>
+            <align>right</align>
             <value>Parental Level:</value>
         </textarea>
 
@@ -803,7 +804,7 @@
         </imagetype>
 
         <textarea name="level_label" from="basetextarea">
-            <area>600,560,130,30</area>
+            <area>500,560,230,30</area>
             <value>Parental Level</value>
             <align>right,vcenter</align>
         </textarea>
