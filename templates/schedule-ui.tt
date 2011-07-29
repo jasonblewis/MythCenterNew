@@ -1450,7 +1450,7 @@
                 <area>0,0,380,25</area>
                 <state name="active">
                     <textarea name="buttontext">
-                        <area>5,4,365,25</area>
+                        <area>5,4,385,25</area>
                         <font>basesmallboldblue</font>
                         <cutdown>yes</cutdown>
                         <align>left,vcenter</align>
