@@ -8,6 +8,13 @@
     xres = 800
     yres = 600
 
+    #font definitions
+    face = Thorndale
+    #face = "CartoGothic Std"
+    #face = "CartoGothic"
+    #face = "Baskerville"
+    weight = Bold
+    
     
     margin_left = 20
     margin_right = margin_left # make margins equal
