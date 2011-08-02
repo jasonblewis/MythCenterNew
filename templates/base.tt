@@ -6,7 +6,7 @@
     <fontdef name="basesmall" face="[%-face-%]">
         <pixelsize>22</pixelsize>
         <color>#EEEEEE</color>
-        <weight>bold</weight>
+        <weight>"[%-fw_regular-%]"</weight>
     </fontdef>
 
     <fontdef name="basesmaller" from="basesmall">
@@ -14,7 +14,7 @@
     </fontdef>
 
     <fontdef name="basesmallbold" from="basesmall">
-        <weight>bold</weight>
+        <weight>"[%-fw_bold-%]"</weight>
     </fontdef>
 
     <fontdef name="basesmallboldblue" from="basesmallbold">

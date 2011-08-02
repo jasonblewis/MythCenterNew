@@ -9,11 +9,14 @@
     yres = 600
 
     #font definitions
-    face = Thorndale
-    #face = "CartoGothic Std"
+    #face = Thorndale
+    face = "CartoGothic Std"
     #face = "CartoGothic"
     #face = "Baskerville"
-    weight = Bold
+    fw_regular = "Book"
+    fw_italic = "Italic"
+    fw_bold = "Bold"
+    fw_regular = "Bold Italic"
     
     
     margin_left = 20
