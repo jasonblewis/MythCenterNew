@@ -17,7 +17,10 @@
     fw_italic = "Italic"
     fw_bold = "Bold"
     fw_regular = "Bold Italic"
-    
+
+    menu_font = "CartoGothic Std"
+    menu_font_weight = "Book"
+    menu_font_size = "18"    
     
     margin_left = 20
     margin_right = margin_left # make margins equal
