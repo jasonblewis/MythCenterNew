@@ -2,10 +2,10 @@
 <!DOCTYPE mythuitheme SYSTEM "http://www.mythtv.org/schema/mythuitheme.dtd">
 <mythuitheme>
     <window name="MythPopupBox">
-        <fontdef name="basesmall" face="Arial">
-            <pixelsize>22</pixelsize>
+        <fontdef name="basesmall" face="CartoGothic Std Book">
+            <pixelsize>24</pixelsize>
             <color>#EEEEEE</color>
-            <weight>bold</weight>
+            <weight>Book</weight>
         </fontdef>
         <fontdef name="basesmall_normal_inactive" from="basesmall">
             <color>#666666</color>

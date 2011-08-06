@@ -4,7 +4,7 @@
 <mythuitheme>
 
     <!-- Base Font Definitions -->
-    <fontdef name="basesmall" face="CartoGothic Std">
+    <fontdef name="basesmall" face="CartoGothic Std Book">
         <pixelsize>22</pixelsize>
         <color>#EEEEEE</color>
         <weight>"Bold Italic"</weight>
@@ -1068,25 +1068,25 @@
           <filename>ui/background.png</filename>
         </imagetype>
 
-        <fontdef name="small" face="CartoGothic Std">
+        <fontdef name="small" face="CartoGothic Std Book">
           <color>#FFFFFF</color>
           <pixelsize>19</pixelsize>
           <weight></weight>
         </fontdef>
 
-        <fontdef name="medium" face="CartoGothic Std">
+        <fontdef name="medium" face="CartoGothic Std Book">
           <color>#FFFFFF</color>
           <pixelsize>22</pixelsize>
           <weight></weight>
         </fontdef>
 
-        <fontdef name="large" face="CartoGothic Std">
+        <fontdef name="large" face="CartoGothic Std Book">
           <color>#FFFFFF</color>
           <pixelsize>28</pixelsize>
           <weight></weight>
         </fontdef>
 
-        <fontdef name="clock" face="CartoGothic Std">
+        <fontdef name="clock" face="CartoGothic Std Book">
              <color>#FFFFFF</color>
              <pixelsize>25</pixelsize>
              <weight></weight>

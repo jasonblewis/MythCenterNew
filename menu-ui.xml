@@ -4,10 +4,10 @@
 <mythuitheme>
     <window name="mainmenu">
 
-        <fontdef name="menufont" face="CartoGothic Std">
+        <fontdef name="menufont" face="CartoGothic Std Book">
             <color>#FFFFFF</color>
             <size>16</size>
-            <weight>"CartoGothic Std"</weight>
+            <weight>"CartoGothic Std Book"</weight>
             <shadowcolor>#000000</shadowcolor>
             <shadowoffset>1,1</shadowoffset>
             <shadowalpha>50</shadowalpha>
