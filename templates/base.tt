@@ -135,12 +135,20 @@
         <area>0,0,100%,100%</area>
         <type>roundbox</type>
         <cornerradius>4</cornerradius>
-        <fill color="#CCCCCC" alpha="120" />
-        <line color="#FFFFFF" width="3" />
+        <!-- <fill color="#6f6f6f" alpha="120" /> -->
+        <fill style="gradient">
+            <gradient start="#6f6f6f" end="#b8b8b8" alpha="120" direction="vertical" />
+        </fill>
     </shape>
 
     <shape name="baseselectedwidgetshape" from="basewidgetshape">
-        <fill color="#43b038" alpha="200" />
+        <!-- <fill color="#dedede" alpha="200" /> -->
+        <!-- <line style="gradient" width="1"> -->
+        <!--     <gradient start="#a6a6a6" end="#dedede" alpha="220" direction="vertical" /> -->
+        <!-- </line> -->
+        <fill style="gradient">
+            <gradient start="#dedede" end="#a6a6a6" alpha="220" direction="vertical" />
+        </fill>
     </shape>
 
     <buttonlist name="basebuttonlist">
@@ -368,12 +376,12 @@
 
     <!-- Base definition of a very wide button -->
     <button name="baseverywidebutton">
+        <area>0,0,[%bvwbw-%],[%bvwbh-%]</area>
         <position>0,0</position>
         <statetype name="buttonstate">
             <state name="active">
-                <imagetype name="background">
-                    <filename>very_wide_button_background.png</filename>
-                </imagetype>
+                <shape name="background" from="basewidgetshape" />
+
                 <textarea name="text">
                     <area>5,6,395,30</area>
                     <align>allcenter</align>
@@ -383,18 +391,19 @@
                 </textarea>
             </state>
             <state name="selected" from="active">
-                <imagetype name="background">
-                    <filename>very_wide_button_selected_background.png</filename>
-                </imagetype>
+                <shape name="background" from="baseselectedwidgetshape" />
+                <!-- <imagetype name="background"> -->
+                <!--     <filename>very_wide_button_selected_background.png</filename> -->
+                <!-- </imagetype> -->
             </state>
             <state name="disabled" from="active" />
             <state name="pushed" from="active">
-                <imagetype name="background">
-                    <filename>very_wide_button_pushed_background.png</filename>
-                </imagetype>
-                <textarea name="text">
-                    <position>8,8</position>
-                </textarea>
+                <!-- <imagetype name="background"> -->
+                <!--     <filename>very_wide_button_pushed_background.png</filename> -->
+                <!-- </imagetype> -->
+                <!-- <textarea name="text"> -->
+                <!--     <position>8,8</position> -->
+                <!-- </textarea> -->
             </state>
         </statetype>
     </button>
