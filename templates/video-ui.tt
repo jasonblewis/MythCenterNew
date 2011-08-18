@@ -801,7 +801,7 @@
         </textarea>
 
         <imagetype name="coverart">
-            <area>[%-xres-margin_right-140-%],335,140,212</area>
+            <area>[%-xres - margin_right - 140 -%],335,140,212</area>
             <preserveaspect>yes</preserveaspect>
         </imagetype>
 
