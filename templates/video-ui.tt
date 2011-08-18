@@ -752,16 +752,18 @@
             <area>[%-margin_left-%],50,[%-xres-margin_left-margin_right-%],270</area>
             <numlists>3</numlists>
             <spacing>4</spacing>
-            <buttonlist name="listtemplate" from="basebuttonlist" />
+            <buttonlist name="listtemplate" from="basebuttonlist">
+                <font>basesmaller</font>
+            </buttonlist>
         </buttontree>
 
         <textarea name="title" from="basetextarea">
-            <area>40,330,630,40</area>
+            <area>[%-margin_left-%],330,630,40</area>
             <font>baselarge</font>
         </textarea>
 
         <textarea name="subtitle" from="basetextarea">
-            <area>50,360,425,30</area>
+            <area>[%-margin_left-%],360,425,30</area>
         </textarea>
 
         <textarea name="##x##" from="basetextarea">
@@ -770,7 +772,7 @@
         </textarea>
 
         <textarea name="director" from="basetextarea">
-            <area>50,390,450,30</area>
+            <area>[%-margin_left-%],390,450,30</area>
         </textarea>
 
         <textarea name="year" from="basetextarea">
@@ -779,14 +781,14 @@
         </textarea>
 
         <textarea name="description" from="basetextarea">
-            <area>40,418,530,80</area>
+            <area>[%-margin_left-%],418,530,80</area>
             <align>left,top</align>
             <multiline>yes</multiline>
             <cutdown>yes</cutdown>
         </textarea>
 
         <textarea name="cast" from="basetextarea">
-            <area>60,503,505,50</area>
+            <area>[%-margin_left-%],503,505,50</area>
             <align>left,top</align>
             <multiline>yes</multiline>
             <cutdown>no</cutdown>
@@ -799,7 +801,7 @@
         </textarea>
 
         <imagetype name="coverart">
-            <area>624,335,140,212</area>
+            <area>[%-xres-margin_right-140-%],335,140,212</area>
             <preserveaspect>yes</preserveaspect>
         </imagetype>
 

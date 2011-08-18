@@ -8,17 +8,20 @@
     xres = 800
     yres = 600
 
-    face = "CartoGothic Std Book"
+    #global_font = "CartoGothic Std Book"
+    global_font = "CartoGothic Std"
+
+    face = global_font
     fw_regular = "Book"
     fw_italic = "Italic"
     fw_bold = "Bold"
     fw_regular = "Bold Italic"
 
-    menu_font = "CartoGothic Std Book"
+    menu_font = global_font
     menu_font_weight = "Book"
     menu_font_size = "18"    
     
-    osd_font_face = "CartoGothic Std Book"
+    osd_font_face = global_font
     osd_font_weight = "Book"
     osd_font_pixelsize = "24"
 
