@@ -742,16 +742,16 @@
     </window>
 
     <window name="tree">
-
+    <!-- video home> directory name > etc type heading on video page   -->
         <textarea name="breadcrumbs" from="basetextarea">
             <area>[%-vu_breadcrumbs_x-%],[%-vu_breadcrumbs_y-%],[%-vu_breadcrumbs_w-%],[%-vu_breadcrumbs_h-%]</area>
             <font>basemedium</font>
         </textarea>
 
         <buttontree name="videos">
-            <area>40,50,720,270</area>
+            <area>[%-margin_left-%],50,[%-xres-margin_left-margin_right-%],270</area>
             <numlists>3</numlists>
-            <spacing>10</spacing>
+            <spacing>4</spacing>
             <buttonlist name="listtemplate" from="basebuttonlist" />
         </buttontree>
 

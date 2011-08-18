@@ -167,7 +167,7 @@
                     </fill>
                 </shape>
                 <textarea name="buttontext">
-                    <area>5,0,90%,30</area>
+                    <area>5,0,99%,30</area>
                     <font>basesmall</font>
                     <cutdown>yes</cutdown>
                     <align>left,vcenter</align>
@@ -214,7 +214,7 @@
             </state>
         </statetype>
         <statetype name="upscrollarrow">
-            <position>10,96%</position>
+            <position>10,94%</position>
             <state type="off">
                 <imagetype name="upon">
                     <filename>lb-uparrow-reg.png</filename>
@@ -227,7 +227,7 @@
             </state>
         </statetype>
         <statetype name="downscrollarrow">
-            <position>40,96%</position>
+            <position>40,94%</position>
             <state type="off">
                 <imagetype name="dnon">
                     <filename>lb-dnarrow-reg.png</filename>
