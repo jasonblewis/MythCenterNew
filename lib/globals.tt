@@ -45,6 +45,10 @@
     bvwsw = bsw + 400
     bvwsh = bsh
 
+    # baseverywidebutton width and height
+    bvwbw = bwsw
+    bvwbh = bsh
+
     # video-ui
     vu_breadcrumbs_x = margin_left
     vu_breadcrumbs_y = margin_top
