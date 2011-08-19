@@ -9,7 +9,7 @@
     yres = 600
 
     #global_font = "CartoGothic Std Book"
-    global_font = "CartoGothic Std"
+    #global_font = "CartoGothic Std"
 
     face = global_font
     fw_regular = "Book"
