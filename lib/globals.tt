@@ -49,6 +49,11 @@
     bvwbw = bwsw
     bvwbh = bsh
 
+    # basebutton width and height
+    bbw = 153
+    bbh = bsh
+
+
     # video-ui
     vu_breadcrumbs_x = margin_left
     vu_breadcrumbs_y = margin_top

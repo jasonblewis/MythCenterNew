@@ -313,7 +313,7 @@
         <statetype name="buttonstate">
             <state name="active">
                 <shape name="background" from="basewidgetshape">
-                    <area>0,0,[%-bvwbw-%],[%-bvwbh-%]</area>
+                    <area>0,0,[%-bbw-%],[%-bbh-%]</area>
                 </shape>
                 <!-- <imagetype name="background"> -->
                 <!--     <filename>button_background.png</filename> -->
@@ -327,9 +327,9 @@
                 </textarea>
             </state>
             <state name="selected" from="active">
-                <imagetype name="background">
-                    <filename>button_selected_background.png</filename>
-                </imagetype>
+                <shape name="background" from="baseselectedwidgetshape">
+                    <area>0,0,[%-bbw-%],[%-bbh-%]</area>
+                </shape>
             </state>
             <state name="disabled" from="active" />
             <state name="pushed" from="active">
