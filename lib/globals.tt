@@ -53,6 +53,11 @@
     bbw = 153
     bbh = bsh
 
+    # cancel and save button positions
+    cancel_x = 40
+    cancel_y = 535
+    save_x   = xres - cancel_x - bbw
+    save_y   = cancel_y
 
     # video-ui
     vu_breadcrumbs_x = margin_left
