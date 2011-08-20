@@ -1671,11 +1671,11 @@
         </clock>
 
         <shape name="details_background" from="basebackground">
-            <area>25,25,750,175</area>
+            <area>[%-margin_left-%],[%-margin_top-%],[%-xres - margin_left - margin_right -%],175</area>
         </shape>
 
         <textarea name="title" from="basetextarea">
-            <area>50,35,700,45</area>
+            <area>[%-margin_left + margin_left-%],35,700,45</area>
             <font>baselarge</font>
         </textarea>
 
