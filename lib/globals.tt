@@ -9,7 +9,7 @@
     yres = 600
 
     #global_font = "CartoGothic Std Book"
-    global_font = "CartoGothic Std"
+    #global_font = "CartoGothic Std"
 
     face = global_font
     fw_regular = "Book"
@@ -44,6 +44,20 @@
     # baseverywideselector width and height
     bvwsw = bsw + 400
     bvwsh = bsh
+
+    # baseverywidebutton width and height
+    bvwbw = bwsw
+    bvwbh = bsh
+
+    # basebutton width and height
+    bbw = 153
+    bbh = bsh
+
+    # cancel and save button positions
+    cancel_x = 80
+    cancel_y = 535
+    save_x   = xres - cancel_x - bbw
+    save_y   = cancel_y
 
     # video-ui
     vu_breadcrumbs_x = margin_left

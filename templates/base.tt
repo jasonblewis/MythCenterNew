@@ -135,7 +135,6 @@
         <area>0,0,100%,100%</area>
         <type>roundbox</type>
         <cornerradius>4</cornerradius>
-        <!-- <fill color="#6f6f6f" alpha="120" /> -->
         <fill style="gradient">
             <gradient start="#6f6f6f" end="#b8b8b8" alpha="120" direction="vertical" />
         </fill>
@@ -313,9 +312,12 @@
         <position>0,0</position>
         <statetype name="buttonstate">
             <state name="active">
-                <imagetype name="background">
-                    <filename>button_background.png</filename>
-                </imagetype>
+                <shape name="background" from="basewidgetshape">
+                    <area>0,0,[%-bbw-%],[%-bbh-%]</area>
+                </shape>
+                <!-- <imagetype name="background"> -->
+                <!--     <filename>button_background.png</filename> -->
+                <!-- </imagetype> -->
                 <textarea name="text">
                     <area>5,6,140,30</area>
                     <align>allcenter</align>
@@ -325,9 +327,9 @@
                 </textarea>
             </state>
             <state name="selected" from="active">
-                <imagetype name="background">
-                    <filename>button_selected_background.png</filename>
-                </imagetype>
+                <shape name="background" from="baseselectedwidgetshape">
+                    <area>0,0,[%-bbw-%],[%-bbh-%]</area>
+                </shape>
             </state>
             <state name="disabled" from="active" />
             <state name="pushed" from="active">
@@ -380,8 +382,10 @@
         <position>0,0</position>
         <statetype name="buttonstate">
             <state name="active">
-                <shape name="background" from="basewidgetshape" />
-
+                <shape name="background" from="basewidgetshape">
+                    <area>0,0,[%-bvwbw-%],[%-bvwbh-%]</area>
+                </shape>
+                
                 <textarea name="text">
                     <area>5,6,395,30</area>
                     <align>allcenter</align>
@@ -391,19 +395,12 @@
                 </textarea>
             </state>
             <state name="selected" from="active">
-                <shape name="background" from="baseselectedwidgetshape" />
-                <!-- <imagetype name="background"> -->
-                <!--     <filename>very_wide_button_selected_background.png</filename> -->
-                <!-- </imagetype> -->
+                <shape name="background" from="baseselectedwidgetshape">
+                    <area>0,0,[%-bvwbw-%],[%-bvwbh-%]</area>
+                </shape>
             </state>
             <state name="disabled" from="active" />
             <state name="pushed" from="active">
-                <!-- <imagetype name="background"> -->
-                <!--     <filename>very_wide_button_pushed_background.png</filename> -->
-                <!-- </imagetype> -->
-                <!-- <textarea name="text"> -->
-                <!--     <position>8,8</position> -->
-                <!-- </textarea> -->
             </state>
         </statetype>
     </button>
