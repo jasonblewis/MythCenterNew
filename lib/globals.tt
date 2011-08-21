@@ -26,10 +26,18 @@
     osd_font_pixelsize = "24"
 
 
+    # margins are around the whole window
     margin_left = 20
     margin_right = margin_left # make margins equal
     margin_top = 20
     margin_bottom = margin_top
+
+    # borders are inside eges around background boxes
+    border_left   = 10
+    border_right  = 10
+    border_top     = 5
+    border_bottom = 5
+
     xcenter = xres / 2
     ycenter = yres / 2
 
@@ -54,10 +62,10 @@
     bbh = bsh
 
     # cancel and save button positions
-    cancel_x = 80
-    cancel_y = 535
-    save_x   = xres - cancel_x - bbw
-    save_y   = cancel_y
+    save_x = 80
+    save_y = 535
+    cancel_x   = xres - save_x - bbw
+    cancel_y   = save_y
 
     # video-ui
     vu_breadcrumbs_x = margin_left

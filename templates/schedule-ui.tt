@@ -1675,7 +1675,7 @@
         </shape>
 
         <textarea name="title" from="basetextarea">
-            <area>[%-margin_left + margin_left-%],35,700,45</area>
+            <area>[%-margin_left + border_left-%],[%-margin_top + border_top-%],[%-xres - margin_left - margin_right - border_left - border_right -%],45</area>
             <font>baselarge</font>
         </textarea>
 
@@ -1736,15 +1736,16 @@
             <helptext></helptext>
         </button>
 
+        <button name="save" from="basebutton">
+            <position>[%-save_x-%],[%-save_y-%]</position>
+            <value>Save</value>
+        </button>       
+
         <button name="cancel" from="basebutton">
             <position>[%-cancel_x-%],[%-cancel_y-%]</position>
             <value>Cancel</value>
         </button>
 
-        <button name="save" from="basebutton">
-            <position>[%-save_x-%],[%-save_y-%]</position>
-            <value>Save</value>
-        </button>
     </window>
 
     <window name="scheduleoptionseditor">

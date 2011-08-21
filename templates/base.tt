@@ -141,10 +141,6 @@
     </shape>
 
     <shape name="baseselectedwidgetshape" from="basewidgetshape">
-        <!-- <fill color="#dedede" alpha="200" /> -->
-        <!-- <line style="gradient" width="1"> -->
-        <!--     <gradient start="#a6a6a6" end="#dedede" alpha="220" direction="vertical" /> -->
-        <!-- </line> -->
         <fill style="gradient">
             <gradient start="#dedede" end="#a6a6a6" alpha="220" direction="vertical" />
         </fill>
@@ -547,7 +543,7 @@
                     <area>5,5,[%-bsw - 30-%],[%-bsh - 10-%]</area>
                     <font>basesmall</font>
                     <cutdown>yes</cutdown>
-                    <align>left,vcenter</align>
+                    <align>hcenter,vcenter</align>
                 </textarea>
             </state>
             <state name="selectedactive" from="active">
@@ -639,7 +635,7 @@
         <area>0,0,10,10</area>
         <font>basesmall</font>
         <multiline>no</multiline>
-        <align>left</align>
+        <align>left,top</align>
     </textarea>
 
     <!-- Base definition of a textedit -->
