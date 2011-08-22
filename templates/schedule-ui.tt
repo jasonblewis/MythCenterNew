@@ -1671,7 +1671,8 @@
         </clock>
 
         <shape name="details_background" from="basebackground">
-            <area>[%-margin_left-%],[%-margin_top-%],[%-xres - margin_left - margin_right -%],175</area>
+            <area>0,0,[%-xres-%],195</area>
+            <type>box</type>
         </shape>
 
         <textarea name="title" from="basetextarea">
