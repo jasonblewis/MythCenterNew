@@ -4,6 +4,7 @@
     x = 115
     top = 210
     ystep = 45
+    xstep = 10 # vertical gap between buttons
 
     xres = 800
     yres = 600
@@ -25,6 +26,7 @@
     osd_font_weight = "Book"
     osd_font_pixelsize = "24"
 
+    # 
 
     # margins are around the whole window
     margin_left = 20
@@ -62,10 +64,10 @@
     bbh = bsh
 
     # cancel and save button positions
-    save_x = 80
-    save_y = 535
-    cancel_x   = xres - save_x - bbw
-    cancel_y   = save_y
+    cancel_x   = xres - bbw - margin_right
+    cancel_y   = 535
+    save_x = cancel_x - bbw - xstep
+    save_y = cancel_y
 
     # video-ui
     vu_breadcrumbs_x = margin_left
