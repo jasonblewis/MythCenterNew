@@ -130,6 +130,14 @@
         <cornerradius>4</cornerradius>
     </shape>
 
+    <!-- Base definition of a shape used as a background on many screens -->
+    <shape name="basebackgroundstrip">
+        <area>0,0,[%-xres-%],195</area>
+        <type>box</type>
+        <fill color="#000000" alpha="120" />
+    </shape>
+
+
     <!-- Base definition of a shape used as a background to many widgets -->
     <shape name="basewidgetshape">
         <area>0,0,100%,100%</area>

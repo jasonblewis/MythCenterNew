@@ -1648,13 +1648,9 @@
 
     <window name="scheduleeditor">
 
-
         <clock name="time" from="baseclock"/>
 
-        <shape name="details_background" from="basebackground">
-            <area>0,0,[%-xres-%],195</area>
-            <type>box</type>
-        </shape>
+        <shape name="details_background" from="basebackgroundstrip"/>
 
         <textarea name="title" from="basetextarea">
             <area>[%-margin_left-%],[%-margin_top-%],[%- su_title_w -%],[%-su_title_h-%]</area>
@@ -1735,9 +1731,7 @@
 
         <clock name="time" from="baseclock"/>
 
-        <shape name="details_background" from="basebackground">
-            <area>25,25,750,175</area>
-        </shape>
+        <shape name="details_background" from="basebackgroundstrip"/>
 
         <textarea name="title" from="basetextarea">
             <area>50,35,700,45</area>
