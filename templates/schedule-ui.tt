@@ -1697,7 +1697,7 @@
         </textarea>
 
         <buttonlist name="rules" from="baseverywideselector">
-            <position>[%-(xres - bvwsw - 20 ) div 2 -%],[%-top-%]</position>
+            <position>[%-(xres - bvwsw + 20 ) div 2 -%],[%-top-%]</position>
             <wrapstyle>selection</wrapstyle>
             <helptext>Select the recording rule</helptext>
         </buttonlist>
