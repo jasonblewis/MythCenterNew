@@ -76,15 +76,17 @@
     vu_breadcrumbs_h = 40    
     
     # schedule-ui
-    su_clock_x = 670
-    su_clock_y = -15
     su_clock_w = 100
     su_clock_h = 60
+    su_clock_x = xres - su_clock_w - margin_right
+    su_clock_y = -15
 
-    su_title_h = 45 
+    su_title_h = 34 
     su_title_w = xres - margin_left - margin_right
 
     su_description_y = margin_top + su_title_h
+    su_description_h = 120
     su_channel_w = 200
+    su_channel_y = 170
 
 -%]
