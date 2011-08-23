@@ -1676,23 +1676,24 @@
         </shape>
 
         <textarea name="title" from="basetextarea">
-            <area>[%-margin_left + border_left-%],[%-margin_top + border_top-%],[%-xres - margin_left - margin_right - border_left - border_right -%],45</area>
+            <area>[%-margin_left-%],[%-margin_top-%],[%- su_title_w -%],[%-su_title_h-%]</area>
+            <template>%TITLE% %SUBTITLE%</template>                           
             <font>baselarge</font>
         </textarea>
 
         <textarea name="timedate" from="basetextarea">
-            <area>50,170,440,27</area>
+            <area>[%-margin_left-%],170,440,27</area>
         </textarea>
 
         <textarea name="channel" from="basetextarea">
-            <area>550,170,200,35</area>
+            <area>[%-xres - margin_right - su_channel_w -%],170,[%-su_channel_w-%],27</area>
             <align>right</align>
         </textarea>
 
         <textarea name="description" from="basetextarea">
-            <area>50,70,700,100</area>
+            <area>[%-margin_left-%],[%-su_description_y-%],[%-xres - margin_left - margin_right -%],100</area>
             <multiline>yes</multiline>
-            <template>%"|SUBTITLE|" %%LONGREPEAT%%(|STARS|) %%DESCRIPTION%</template>
+            <template>%LONGREPEAT%%(|STARS|) %%DESCRIPTION%</template>
         </textarea>
 
         <buttonlist name="rules" from="baseverywideselector">

@@ -81,4 +81,10 @@
     su_clock_w = 100
     su_clock_h = 60
 
+    su_title_h = 45 
+    su_title_w = xres - margin_left - margin_right
+
+    su_description_y = margin_top + su_title_h
+    su_channel_w = 200
+
 -%]

@@ -311,9 +311,6 @@
                 <shape name="background" from="basewidgetshape">
                     <area>0,0,[%-bbw-%],[%-bbh-%]</area>
                 </shape>
-                <!-- <imagetype name="background"> -->
-                <!--     <filename>button_background.png</filename> -->
-                <!-- </imagetype> -->
                 <textarea name="text">
                     <area>5,6,140,30</area>
                     <align>allcenter</align>
@@ -374,7 +371,7 @@
 
     <!-- Base definition of a very wide button -->
     <button name="baseverywidebutton">
-        <area>0,0,[%bvwbw-%],[%bvwbh-%]</area>
+        <area>0,0,[%-bvwbw-%],[%-bvwbh-%]</area>
         <position>0,0</position>
         <statetype name="buttonstate">
             <state name="active">
@@ -383,7 +380,7 @@
                 </shape>
                 
                 <textarea name="text">
-                    <area>5,6,395,30</area>
+                    <area>5,6,[%-bvwbw - 10 -%],[%-bvwbh - 12 -%]</area>
                     <align>allcenter</align>
                     <font>basemediumwhite</font>
                     <font state="selected">basemediumwhite</font>
