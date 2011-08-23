@@ -120,11 +120,7 @@
             </statetype>
         </buttonlist>
 
-        <clock name="time">
-            <area>670,15,100,60</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <imagetype name="channelicon">
             <area>23,20,50,50</area>
@@ -336,11 +332,7 @@
             </statetype>
         </buttonlist>
 
-        <clock name="time">
-            <area>655,12,120,60</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <imagetype name="channelicon">
             <area>30,18,50,50</area>
@@ -1314,11 +1306,7 @@
     </window>
 
     <window name="progdetails">
-        <clock name="time">
-            <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <textarea name="title" from="basetextarea">
             <area>40,20,720,40</area>
@@ -1364,11 +1352,7 @@
 
     <window name="programfind">
 
-        <clock name="time">
-            <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,215</area>
@@ -1664,11 +1648,8 @@
 
     <window name="scheduleeditor">
 
-        <clock name="time">
-            <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+
+        <clock name="time" from="baseclock"/>
 
         <shape name="details_background" from="basebackground">
             <area>0,0,[%-xres-%],195</area>
@@ -1752,11 +1733,7 @@
 
     <window name="scheduleoptionseditor">
 
-        <clock name="time">
-            <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>
@@ -1921,11 +1898,7 @@
     </window>
 
     <window name="storageoptionseditor">
-        <clock name="time">
-            <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>
@@ -1999,11 +1972,7 @@
     </window>
 
     <window name="postproceditor">
-        <clock name="time">
-            <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
-            <align>right,vcenter</align>
-            <template>%TIME%</template>
-        </clock>
+        <clock name="time" from="baseclock"/>
 
         <shape name="details_background" from="basebackground">
             <area>25,25,750,175</area>
