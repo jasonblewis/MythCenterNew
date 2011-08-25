@@ -1103,7 +1103,7 @@
     <clock name="baseclock">
         <area>[%-su_clock_x-%],[%-su_clock_y-%],[%-su_clock_w-%],[%-su_clock_h-%]</area>
         <align>right,top</align>
-        <template>%DATE% %TIME%</template>
+        <template>%TIME%</template>
     </clock>
 
 
