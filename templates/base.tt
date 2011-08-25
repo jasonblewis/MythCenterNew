@@ -349,11 +349,12 @@
         <position>0,0</position>
         <statetype name="buttonstate">
             <state name="active">
-                <imagetype name="background">
-                    <filename>wide_button_background.png</filename>
-                </imagetype>
+                <shape name="background" from="basewidgetshape">
+                    <area>0,0,[%-bwbw-%],[%-bwbh-%]</area>
+                </shape>
+
                 <textarea name="text">
-                    <area>5,6,280,30</area>
+                    <area>5,6,[%-bwbw - 10 -%],[%-bwbh - 12 -%]</area>
                     <align>allcenter</align>
                     <font>basemediumwhite</font>
                     <font state="selected">basemediumwhite</font>
@@ -361,15 +362,12 @@
                 </textarea>
             </state>
             <state name="selected" from="active">
-                <imagetype name="background">
-                    <filename>wide_button_selected_background.png</filename>
-                </imagetype>
+                 <shape name="background" from="baseselectedwidgetshape">
+                    <area>0,0,[%-bwbw-%],[%-bwbh-%]</area>
+                </shape>
             </state>
             <state name="disabled" from="active" />
             <state name="pushed" from="active">
-                <imagetype name="background">
-                    <filename>wide_button_pushed_background.png</filename>
-                </imagetype>
                 <textarea name="text">
                     <position>8,8</position>
                 </textarea>

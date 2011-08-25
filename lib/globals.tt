@@ -63,6 +63,10 @@
     bbw = 153
     bbh = bsh
 
+    # basewide button width and height
+    bwbw = 230
+    bwbh = bsh
+
     # cancel and save button positions
     cancel_x   = xres - bbw - margin_right
     cancel_y   = 535
