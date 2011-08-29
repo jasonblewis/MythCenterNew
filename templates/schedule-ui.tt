@@ -1789,7 +1789,7 @@
         </textarea>
 
         <button name="back" from="basebutton">
-            <position>40,525</position>
+            <position>[%-back_x-%],[%-back_y-%]</position>
             <value>Back</value>
         </button>
     </window>
