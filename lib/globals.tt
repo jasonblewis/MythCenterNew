@@ -55,6 +55,14 @@
     bvwsw = bsw + 400
     bvwsh = bsh
 
+    # basespinbox width and height
+    bsbw = 90
+    bsbh = 40
+
+    # basewidespinbox width and height
+    bwsbw = 395
+    bwsbh = bsbh
+
     # baseverywidebutton width and height
     bvwbw = bwsw
     bvwbh = bsh
@@ -66,6 +74,10 @@
     # basewide button width and height
     bwbw = 230
     bwbh = bsh
+
+    # basecheckbox width and height
+    basecheckbox_w = 30
+    basecheckbox_h = 30
 
     # cancel and save button positions
     cancel_x   = xres - bbw - margin_right

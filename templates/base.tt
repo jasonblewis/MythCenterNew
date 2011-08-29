@@ -433,14 +433,14 @@
         <position>0,0</position>
         <statetype name="background">
             <state name="active">
-                <imagetype name="background">
-                    <filename>checkbox_background_off.png</filename>
-                </imagetype>
+                <shape name="background" from="basewidgetshape">
+                    <area>0,0,[%-basecheckbox_w-%],[%-basecheckbox_h-%]</area>
+                </shape>
             </state>
             <state name="selected">
-                <imagetype name="background">
-                    <filename>checkbox_background_selected.png</filename>
-                </imagetype>
+                <shape name="background" from="baseselectedwidgetshape">
+                    <area>0,0,[%-basecheckbox_w-%],[%-basecheckbox_h-%]</area>
+                </shape>
             </state>
             <state name="disabled" />
         </statetype>
@@ -462,14 +462,14 @@
 
     <!-- Base definition of a spinbox -->
     <spinbox name="basespinbox">
-        <area>0,0,90,40</area>
+        <area>0,0,[%-bsbw-%],[%-bsbh-%]</area>
         <layout>horizontal</layout>
         <statetype name="buttonitem">
             <state name="active">
-                <area>0,0,70,40</area>
+                <area>0,0,[%-bsbw - 20 -%],[%-bsbh-%]</area>
                 <shape name="background" from="basewidgetshape" />
                 <textarea name="buttontext">
-                    <area>5,5,55,30</area>
+                    <area>5,5,[%-bsbw - 35 -%],[%-bsbh - 10 -%]</area>
                     <font>basesmall</font>
                     <cutdown>yes</cutdown>
                     <align>hcenter,vcenter</align>
@@ -481,7 +481,7 @@
             <state name="selectedinactive" from="active" />
         </statetype>
         <statetype name="downscrollarrow">
-            <position>75,2</position>
+            <position>[%-bsbw - 15 -%],2</position>
             <state type="off">
                 <imagetype name="dnon">
                     <filename>lb-rtarrow-reg.png</filename>
@@ -494,7 +494,7 @@
             </state>
         </statetype>
         <statetype name="upscrollarrow">
-            <position>75,21</position>
+            <position>[%-bsbw - 15 -%],21</position>
             <state type="off">
                 <imagetype name="upon">
                     <filename>lb-ltarrow-reg.png</filename>
@@ -510,14 +510,14 @@
 
     <!-- Base definition of a wide spinbox (room for strings) -->
     <spinbox name="basewidespinbox" from="basespinbox">
-        <area>0,0,395,40</area>
+        <area>0,0,[%-bwsbw-%],[%-bwsbh-%]</area>
         <layout>horizontal</layout>
-        <buttonarea>0,0,375,100%</buttonarea>
+        <buttonarea>0,0,[%-bwsbw - 20 -%],100%</buttonarea>
         <statetype name="buttonitem">
             <state name="active">
-                <area>0,0,375,40</area>
+                <area>0,0,[%-bwsbw - 20 -%],[%-bwsbh-%]</area>
                 <textarea name="buttontext">
-                    <area>5,5,365,30</area>
+                    <area>5,5,[%-bwsbw - 30 -%],[%-bwsbh - 10 -%]</area>
                 </textarea>
             </state>
             <state name="selectedactive" from="active">
@@ -526,10 +526,10 @@
             <state name="selectedinactive" from="active" />
         </statetype>
         <statetype name="downscrollarrow">
-            <position>380,2</position>
+            <position>[%-bwsbw - 15 -%],2</position>
         </statetype>
         <statetype name="upscrollarrow">
-            <position>380,21</position>
+            <position>[%-bwsbw - 15 -%],21</position>
         </statetype>
     </spinbox>
 

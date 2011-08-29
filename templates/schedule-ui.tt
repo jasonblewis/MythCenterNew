@@ -1735,7 +1735,7 @@
         [% PROCESS scheduledetails %]
 
         <spinbox name="priority" from="basewidespinbox">
-            <position>[%-x-%],210</position>
+            <position>[%-(xres - bwsbw + 20 ) div 2 -%],[%-top-%]</position>
             <template type="negative">Reduce priority by %n</template>
             <template type="zero">Normal recording priority</template>
             <template type="positive">Raise priority by %n</template>
@@ -1743,12 +1743,12 @@
         </spinbox>
 
         <buttonlist name="input" from="basewideselector">
-            <position>[%-x-%],255</position>
+            <position>[%-(xres - bwsw + 20 ) div 2 -%],[%-y = top + ystep; y-%]</position>
             <helptext></helptext>
         </buttonlist>
 
         <spinbox name="startoffset" from="basewidespinbox">
-            <position>[%-x-%],300</position>
+            <position>[%-(xres - bwsbw + 20 ) div 2 -%],[%-y = y + ystep; y-%]</position>
             <template type="negative">Start recording %n minute(s) late</template>
             <template type="zero">Start recording on time</template>
             <template type="positive">Start recording %n minute(s) early</template>
@@ -1756,7 +1756,7 @@
         </spinbox>
 
         <spinbox name="endoffset" from="basewidespinbox">
-            <position>[%-x-%],345</position>
+            <position>[%-(xres - bwsbw + 20 ) div 2 -%],[%-y = y + ystep; y-%]</position>
             <template type="negative">End recording %n minute(s) early</template>
             <template type="zero">End recording on time</template>
             <template type="positive">End recording %n minute(s) late</template>
@@ -1764,17 +1764,17 @@
         </spinbox>
 
         <buttonlist name="dupmethod" from="baseverywideselector">
-            <position>[%-x-%],390</position>
+            <position>[%-(xres - bvwsw + 20 ) div 2 -%],[%-y = y + ystep; y-%]</position>
             <helptext></helptext>
         </buttonlist>
 
         <buttonlist name="dupscope" from="baseverywideselector">
-            <position>[%-x-%],435</position>
+            <position>[%-(xres - bvwsw + 20 ) div 2 -%],[%-y = y + ystep; y-%]</position>
             <helptext></helptext>
         </buttonlist>
 
         <button name="filters" from="basewidebutton">
-            <position>[%-x-%],480</position>
+            <position>[%-(xres - bvwsw + 20 ) div 2 -%],[%-y = y + ystep; y-%]</position>
             <value>Schedule filters</value>
             <helptext></helptext>
         </button>
@@ -1800,50 +1800,53 @@
 	<buttonlist name="filters" from="basebuttonlist">
 	    <area>200,210,400,290</area>
 	    <layout>vertical</layout>
-	    <spacing>0</spacing>
+	    <spacing>5</spacing>
 	    <scrollstyle>free</scrollstyle>
 	    <wrapstyle>items</wrapstyle>
 	    <buttonarea>5,5,390,280</buttonarea>
 	    <statetype name="buttonitem">
+	        <shape name="background" from="basewidgetshape">
+		    <area>0,0,40,40</area>
+                </shape>
 		<state name="active">
-		    <area>0,0,370,40</area>
-		    <textarea name="buttontext">
+                    <shape name="background" from="basewidgetshape">
+                        <area>0,0,[%-basecheckbox_w-%],[%-basecheckbox_h-%]</area>
+                    </shape>
+                    <textarea name="buttontext">
 			<area>50,5,-5,30</area>
 		    </textarea>
 		    <statetype name="buttoncheck">
 			<position>5,10</position>
-			<state type="off">
-			    <imagetype name="checkoff">
-				<filename>lb-check-empty.png</filename>
-			    </imagetype>
-			</state>
+			<state type="off"/>
 			<state type="half">
 			    <imagetype name="checkhalf">
-				<filename>lb-check-half.png</filename>
+                                <filename>checkbox_halfcheck.png</filename>
 			    </imagetype>
 			</state>
 			<state type="full">
 			    <imagetype name="checkfull">
-				<filename>lb-check-full.png</filename>
+                                <filename>checkbox_fullcheck.png</filename>
 			    </imagetype>
 			</state>
 		    </statetype>
 		</state>
 		<state name="selectedactive" from="active">
-		    <shape name="background" from="baseselectedwidgetshape" />
+		    <shape name="background" from="baseselectedwidgetshape">
+                        <area>0,0,[%-basecheckbox_w-%],[%-basecheckbox_h-%]</area>
+                    </shape>
 		</state>
 		<state name="selectedinactive" from="active" />
 	    </statetype>
             <statetype name="upscrollarrow">
-                <position>380,5</position>
+                <position>372,5</position>
             </statetype>
             <statetype name="downscrollarrow">
-                <position>380,267</position>
+                <position>372,267</position>
             </statetype>
 	</buttonlist>
 
         <button name="back" from="basebutton">
-            <position>40,525</position>
+            <position>[%-back_x-%],[%-back_y-%]</position>
             <value>Back</value>
         </button>
 
