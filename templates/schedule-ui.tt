@@ -1806,17 +1806,17 @@
 	    <buttonarea>5,5,390,280</buttonarea>
 	    <statetype name="buttonitem">
 	        <shape name="background" from="basewidgetshape">
-		    <area>0,0,40,40</area>
+		    <area>0,0,[%-basecheckbox_w-%],[%-basecheckbox_h-%]</area>
                 </shape>
 		<state name="active">
                     <shape name="background" from="basewidgetshape">
                         <area>0,0,[%-basecheckbox_w-%],[%-basecheckbox_h-%]</area>
                     </shape>
                     <textarea name="buttontext">
-			<area>50,5,-5,30</area>
+			<area>40,0,-5,30</area>
 		    </textarea>
 		    <statetype name="buttoncheck">
-			<position>5,10</position>
+			<position>3,3</position>
 			<state type="off"/>
 			<state type="half">
 			    <imagetype name="checkhalf">
@@ -1838,7 +1838,7 @@
 		<state name="selectedinactive" from="active" />
 	    </statetype>
             <statetype name="upscrollarrow">
-                <position>372,5</position>
+                <position>340,267</position>
             </statetype>
             <statetype name="downscrollarrow">
                 <position>372,267</position>
@@ -1853,31 +1853,8 @@
     </window>
 
     <window name="storageoptionseditor">
-        <clock name="time" from="baseclock"/>
 
-        <shape name="details_background" from="basebackground">
-            <area>25,25,750,175</area>
-        </shape>
-
-        <textarea name="title" from="basetextarea">
-            <area>50,35,700,45</area>
-            <font>baselarge</font>
-        </textarea>
-
-        <textarea name="timedate" from="basetextarea">
-            <area>50,170,440,27</area>
-        </textarea>
-
-        <textarea name="channel" from="basetextarea">
-            <area>550,170,200,35</area>
-            <align>right</align>
-        </textarea>
-
-        <textarea name="description" from="basetextarea">
-            <area>50,70,700,100</area>
-            <multiline>yes</multiline>
-            <template>%"|SUBTITLE|" %%LONGREPEAT%%(|STARS|) %%DESCRIPTION%</template>
-        </textarea>
+        [% PROCESS scheduledetails %]
 
         <buttonlist name="recprofile" from="baseverywideselector">
             <position>[%-x-%],210</position>
@@ -1899,7 +1876,7 @@
             <helptext></helptext>
         </buttonlist>
 
-        <spinbox name="maxepisodes" from="basewidespinbox">
+        <spinbox name="maxepisodes" from="baseultrawidespinbox">
             <position>[%-x-%],390</position>
             <template type="zero">No episode limit</template>
             <template type="positive">Keep at most %n episode(s)</template>
@@ -1921,7 +1898,7 @@
         </textarea>
 
         <button name="back" from="basebutton">
-            <position>40,525</position>
+            <position>[%-back_x-%],[%-back_y-%]</position>
             <value>Back</value>
         </button>
     </window>

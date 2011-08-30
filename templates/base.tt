@@ -178,9 +178,6 @@
                 <statetype name="buttoncheck">
                     <position>91%,5</position>
                     <state type="off">
-                        <imagetype name="checkoff">
-                            <filename>lb-check-empty.png</filename>
-                        </imagetype>
                     </state>
                     <state type="half">
                         <imagetype name="checkhalf">
@@ -530,6 +527,31 @@
         </statetype>
         <statetype name="upscrollarrow">
             <position>[%-bwsbw - 15 -%],21</position>
+        </statetype>
+    </spinbox>
+
+    <!-- Base definition of an ultra wide spinbox (room for strings) -->
+    <spinbox name="baseultrawidespinbox" from="basespinbox">
+        <area>0,0,[%-buwsbw-%],[%-ubwsbh-%]</area>
+        <layout>horizontal</layout>
+        <buttonarea>0,0,[%-buwsbw - 20 -%],100%</buttonarea>
+        <statetype name="buttonitem">
+            <state name="active">
+                <area>0,0,[%-buwsbw - 20 -%],[%-buwsbh-%]</area>
+                <textarea name="buttontext">
+                    <area>5,5,[%-buwsbw - 30 -%],[%-buwsbh - 10 -%]</area>
+                </textarea>
+            </state>
+            <state name="selectedactive" from="active">
+                <shape name="background" from="baseselectedwidgetshape" />
+            </state>
+            <state name="selectedinactive" from="active" />
+        </statetype>
+        <statetype name="downscrollarrow">
+            <position>[%-buwsbw - 15 -%],2</position>
+        </statetype>
+        <statetype name="upscrollarrow">
+            <position>[%-buwsbw - 15 -%],21</position>
         </statetype>
     </spinbox>
 

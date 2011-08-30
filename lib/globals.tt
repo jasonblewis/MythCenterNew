@@ -63,6 +63,10 @@
     bwsbw = 395
     bwsbh = bsbh
 
+    # baseultrawidespinbox width and height
+    buwsbw = bsb + 400
+    buwsbh = bsbh
+
     # baseverywidebutton width and height
     bvwbw = bwsw
     bvwbh = bsh
